@@ -1,13 +1,12 @@
 
-                         TCP Traffic Analyzer
+  ### TCP Traffic Analyzer
 
 
-  Author: Jordan McKinney
-  Course: CSC 361
+  #### Author: Jordan McKinney
+  #### Course: CSC 361
 
 
-  *Overview*
-  ----------
+  #### Overview
 
   This project consists of a basic TCP packet analyzer written
   in C. 
@@ -18,8 +17,7 @@
   this data to stdout.
 
 
-  *Compilation/Execution*
-  ---------------------
+  #### Compilation/Execution
 
   To compile and run the program with the included sample file
   (sample-capture-file.cap) simply type 'make' into the command
@@ -46,8 +44,7 @@
   differ I think my approach is sound.
 
 
-  *Sources*
-  ---------
+  #### Sources
 
   The skeleton of tcp_analyzer.c was borrowed from the course
   connex page. The error handling messages were also borrowed
