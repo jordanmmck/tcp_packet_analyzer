@@ -1,5 +1,5 @@
 
-### TCP Traffic Analyzer
+## TCP Traffic Analyzer
 
 
 #### Author: Jordan McKinney
@@ -7,7 +7,7 @@
 #### Course: CSC 361
 
 
-#### Overview
+### Overview
 
 This project consists of a basic TCP packet analyzer written
 in C. 
@@ -18,7 +18,7 @@ about the connections represented by the packets, and prints
 this data to stdout.
 
 
-#### Compilation/Execution
+### Compilation/Execution
 
 To compile and run the program with the included sample file
 (sample-capture-file.cap) simply type 'make' into the command
@@ -26,15 +26,15 @@ line. The program will output to 'out.txt'.
 
 To run the program with a different input file type:
 
-  make INPUT="myinputfile"
+`make INPUT="myinputfile"`
 
 To send the output to a different output file type:
 
-  make OUTPUT="myoutput.txt"
+`make OUTPUT="myoutput.txt"`
 
 Both options can be combined as:
 
-  make INPUT="myinputfile" OUTPUT="myoutput.txt"
+`make INPUT="myinputfile" OUTPUT="myoutput.txt"`
 
 
 Note: There may be some small variation in the output from 
@@ -45,7 +45,7 @@ think through the logic carefully, so while some values may
 differ I think my approach is sound.
 
 
-#### Sources
+### Sources
 
 The skeleton of tcp_analyzer.c was borrowed from the course
 connex page. The error handling messages were also borrowed
